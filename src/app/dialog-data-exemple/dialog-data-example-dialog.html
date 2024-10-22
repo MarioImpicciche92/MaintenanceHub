@@ -1,0 +1,21 @@
+<h2 mat-dialog-title>Guest room</h2>
+<mat-dialog-content>
+  The guest is:
+  <ul>
+    <li>
+      @if (data.animal === 'panda') {
+        <span>&#10003;</span>
+      } Nandos
+    </li>
+    <li>
+      @if (data.animal === 'unicorn') {
+        <span>&#10003;</span>
+      } Room:130
+    </li>
+    <li>
+      @if (data.animal === 'lion') {
+        <span>&#10003;</span>
+      } Status:Priority
+    </li>
+  </ul>
+</mat-dialog-content>
